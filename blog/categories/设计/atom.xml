@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 设计 | 数塔的秘密基地]]></title>
   <link href="http://wenatuhs.github.com/blog/categories/设计/atom.xml" rel="self"/>
   <link href="http://wenatuhs.github.com/"/>
-  <updated>2012-06-03T02:34:33+08:00</updated>
+  <updated>2012-06-03T03:24:17+08:00</updated>
   <id>http://wenatuhs.github.com/</id>
   <author>
     <name><![CDATA[wenatuhs]]></name>
@@ -20,40 +20,28 @@
     <id>http://wenatuhs.github.com/blog/2012/06/02/wo-yuan-jiang</id>
     <content type="html"><![CDATA[<p>今天的蛋贼穿了一件粉红色的小T恤配一条蓝色背带裤，瞬间激发了我的创作欲望，没错，我愿意为我的新宠<code>鼠须管</code>做一款蛋贼主题配色。</p>
 
-<p>那么首先参考下<code>佛振</code>的<a href="http://code.google.com/p/rimeime/wiki/CustomizationGuide">小狼毫配色方案教程</a>，虽然不能完全照搬到鼠须管上，但照葫芦画瓢还是可行的。
-<div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">&lt;/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="l-Scalar-Plain">&lt;h1&gt;适用于〔鼠须管〕0.9.6+&lt;/h1&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="l-Scalar-Plain">&lt;h1&gt;位置：~/Library/Rime/squirrel.custom.yaml&lt;/h1&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="l-Scalar-Plain">&lt;p&gt;patch</span><span class="p-Indicator">:</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">style/color_scheme</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">wonder_a</span>    <span class="c1"># 当前选取的配色方案</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">preset_color_schemes/wonder_a</span><span class="p-Indicator">:</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">蛋贼A／Wonder_A</span>    <span class="c1"># 这里写配色方案的名字</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">author</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">数塔 &lt;a href=&quot;&amp;#x6d;&amp;#x61;&amp;#105;&amp;#x6c;&amp;#116;&amp;#111;&amp;#x3a;&amp;#119;&amp;#x65;&amp;#x6e;&amp;#x61;&amp;#116;&amp;#117;&amp;#104;&amp;#x73;&amp;#x40;&amp;#103;&amp;#109;&amp;#x61;&amp;#x69;&amp;#108;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&quot;&gt;&amp;#119;&amp;#101;&amp;#110;&amp;#97;&amp;#116;&amp;#117;&amp;#x68;&amp;#x73;&amp;#64;&amp;#x67;&amp;#x6d;&amp;#x61;&amp;#105;&amp;#x6c;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;</span>    <span class="c1"># 作者</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">text_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xa094e0</span>    <span class="c1"># 非第一候选项的候选项文字颜色</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">back_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xb1cae5</span>    <span class="c1"># 整个输入框背景色</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">comment_text_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xa094e0</span>    <span class="c1"># 不知道干嘛的，改变颜色没什么效果</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">hilited_candidate_back_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xd3ae67</span>    <span class="c1"># 第一候选项背景色</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">hilited_candidate_text_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xffffff</span>    <span class="c1"># 第一候选项文字颜色</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>那么首先参考下<code>佛振</code>的<a href="http://code.google.com/p/rimeime/wiki/CustomizationGuide">小狼毫配色方案教程</a>，虽然不能完全照搬到鼠须管上，但照葫芦画瓢还是可行的。</p>
+
+<!-- more -->
+
+
+<p>{% codeblock lang:yaml %}</p>
+
+<h1>适用于〔鼠须管〕0.9.6+</h1>
+
+<h1>位置：~/Library/Rime/squirrel.custom.yaml</h1>
+
+<p>patch:
+  style/color_scheme: wonder_a    # 当前选取的配色方案
+  preset_color_schemes/wonder_a:
+  name: 蛋贼A／Wonder_A    # 这里写配色方案的名字
+  author: 数塔 <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#58;&#119;&#101;&#x6e;&#x61;&#x74;&#x75;&#x68;&#115;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#119;&#x65;&#x6e;&#97;&#116;&#x75;&#x68;&#x73;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a>    # 作者
+  text_color: 0xa094e0    # 非第一候选项的候选项文字颜色
+  back_color: 0xb1cae5    # 整个输入框背景色
+  comment_text_color: 0xa094e0    # 不知道干嘛的，改变颜色没什么效果
+  hilited_candidate_back_color: 0xd3ae67    # 第一候选项背景色
+  hilited_candidate_text_color: 0xffffff    # 第一候选项文字颜色
+{% endcodeblock %}
 以上重点修改的是<code>输入框背景色</code>和<code>第一候选项背景色</code>，因为这两项给人的感觉最强烈（毕竟是色块嘛）。</p>
 
 <p>目测了蛋贼身上的颜色，并查阅了<code>协调色宝典</code>后，我开始瞎搞。说瞎搞是因为一组协调色有3种颜色，那么用哪种做背景色哪种做文字色呢，这就要靠排列组合<code>3!=6</code>了。</p>

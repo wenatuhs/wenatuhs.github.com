@@ -4,7 +4,7 @@
   <title><![CDATA[数塔的秘密基地]]></title>
   <link href="http://wenatuhs.github.com/atom.xml" rel="self"/>
   <link href="http://wenatuhs.github.com/"/>
-  <updated>2012-06-03T02:34:33+08:00</updated>
+  <updated>2012-06-03T03:24:06+08:00</updated>
   <id>http://wenatuhs.github.com/</id>
   <author>
     <name><![CDATA[wenatuhs]]></name>
@@ -21,6 +21,11 @@
     <content type="html"><![CDATA[<p>今天的蛋贼穿了一件粉红色的小T恤配一条蓝色背带裤，瞬间激发了我的创作欲望，没错，我愿意为我的新宠<code>鼠须管</code>做一款蛋贼主题配色。</p>
 
 <p>那么首先参考下<code>佛振</code>的<a href="http://code.google.com/p/rimeime/wiki/CustomizationGuide">小狼毫配色方案教程</a>，虽然不能完全照搬到鼠须管上，但照葫芦画瓢还是可行的。</p>
+
+<!-- more -->
+
+
+
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -88,6 +93,9 @@
     <content type="html"><![CDATA[<h3>我的输入法时间线</h3>
 
 <p>最近在网上瞎逛时偶然看到有人推荐一款新的输入法：鼠须管。其实最开始用Mac时我对Sun拼音输入法很有好感，后来用着用着QIM就免费了，于是转到QIM阵营，基本满足我的一切要求。但是喜新厌旧的毛病（<code>蛋贼，不包括你！</code>）总是难改，所以Lion的自带输入法也在我这儿风光了一段时间，这输入法哪儿都好就是有点卡，尤其是在Safari中更是卡的不能忍，于是又实用主义地换回QIM，一直相安无事地用到前天。</p>
+
+<!-- more -->
+
 
 <h3>与鼠须管的初见</h3>
 
