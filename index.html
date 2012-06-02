@@ -7,8 +7,16 @@
     <meta name="author" content="wenatuhs">
 
     
-    <meta name="description" content="我愿将制作本主题的荣耀献给台下的蛋贼 今天的蛋贼穿了一件粉红色的小T恤配一条蓝色背带裤，瞬间激发了我的创作欲望，没错，我愿意为我的新宠鼠须管做一款蛋贼主题配色。 那么首先参考下佛振的小狼毫配色方案教程，虽然不能完全照搬到鼠须管上，但照葫芦画瓢还是可行的。 # 适用于〔鼠须管〕0.9.6+
-# &hellip;">
+    <meta name="description" content="我愿将制作本主题的荣耀献给台下的蛋贼 今天的蛋贼穿了一件粉红色的小T恤配一条蓝色背带裤，瞬间激发了我的创作欲望，没错，我愿意为我的新宠鼠须管做一款蛋贼主题配色。 那么首先参考下佛振的小狼毫配色方案教程，虽然不能完全照搬到鼠须管上，但照葫芦画瓢还是可行的。 1
+2
+3
+4
+5
+6
+7
+8
+9
+10 &hellip;">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -59,20 +67,34 @@
 
 <p>那么首先参考下<code>佛振</code>的<a href="http://code.google.com/p/rimeime/wiki/CustomizationGuide">小狼毫配色方案教程</a>，虽然不能完全照搬到鼠须管上，但照葫芦画瓢还是可行的。</p>
 
-<pre><code># 适用于〔鼠须管〕0.9.6+
-# 位置：~/Library/Rime/squirrel.custom.yaml
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="c1"># 适用于〔鼠须管〕0.9.6+</span>
+</span><span class='line'><span class="c1"># 位置：~/Library/Rime/squirrel.custom.yaml</span>
+</span><span class='line'><span class="err">    </span>
+</span><span class='line'><span class="l-Scalar-Plain">patch</span><span class="p-Indicator">:</span>
+</span><span class='line'>  <span class="l-Scalar-Plain">style/color_scheme</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">wonder_a</span>    <span class="c1"># 当前选取的配色方案</span>
+</span><span class='line'>  <span class="l-Scalar-Plain">preset_color_schemes/wonder_a</span><span class="p-Indicator">:</span>
+</span><span class='line'>  <span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">蛋贼A／Wonder_A</span>    <span class="c1"># 这里写配色方案的名字</span>
+</span><span class='line'>  <span class="l-Scalar-Plain">author</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">数塔 &lt;wenatuhs@gmail.com&gt;</span>    <span class="c1"># 作者</span>
+</span><span class='line'>  <span class="l-Scalar-Plain">text_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xa094e0</span>    <span class="c1"># 非第一候选项的候选项文字颜色</span>
+</span><span class='line'>  <span class="l-Scalar-Plain">back_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xb1cae5</span>    <span class="c1"># 整个输入框背景色</span>
+</span><span class='line'>  <span class="l-Scalar-Plain">comment_text_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xa094e0</span>    <span class="c1"># 不知道干嘛的，改变颜色没什么效果</span>
+</span><span class='line'>  <span class="l-Scalar-Plain">hilited_candidate_back_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xd3ae67</span>    <span class="c1"># 第一候选项背景色</span>
+</span><span class='line'>  <span class="l-Scalar-Plain">hilited_candidate_text_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xffffff</span>    <span class="c1"># 第一候选项文字颜色</span>
+</span></code></pre></td></tr></table></div></figure>
 
-patch:
-  style/color_scheme: wonder_a    # 当前选取的配色方案
-  preset_color_schemes/wonder_a:
-    name: 蛋贼A／Wonder_A    # 这里写配色方案的名字
-    author: 数塔 &lt;wenatuhs@gmail.com&gt;    # 作者
-    text_color: 0xa094e0    # 非第一候选项的候选项文字颜色
-    back_color: 0xb1cae5    # 整个输入框背景色
-    comment_text_color: 0xa094e0    # 不知道干嘛的，改变颜色没什么效果
-    hilited_candidate_back_color: 0xd3ae67    # 第一候选项背景色
-    hilited_candidate_text_color: 0xffffff    # 第一候选项文字颜色
-</code></pre>
 
 <p>以上重点修改的是<code>输入框背景色</code>和<code>第一候选项背景色</code>，因为这两项给人的感觉最强烈（毕竟是色块嘛）。</p>
 
@@ -80,7 +102,10 @@ patch:
 
 <p>经过2个小时的不懈折腾，最后做出了以下4种配色方案：</p>
 
-<p><img src="/images/20120602/a.png" alt="蛋贼主题A" /><img src="/images/20120602/b.png" alt="蛋贼主题B" /><img src="/images/20120602/c.png" alt="蛋贼主题C" /><img src="/images/20120602/d.png" alt="蛋贼主题D" /></p>
+<p><img src="/images/20120602/a.png" title="蛋贼主题A" alt="" />
+<img src="/images/20120602/b.png" title="蛋贼主题B" alt="" />
+<img src="/images/20120602/c.png" title="蛋贼主题C" alt="" />
+<img src="/images/20120602/d.png" title="蛋贼主题D" alt="" /></p>
 
 <p>经过一段时间的比较，我最终决定。。。把选择权交给蛋贼本人，而蛋贼给出的结论为：</p>
 
