@@ -26,7 +26,9 @@
     <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    
+    <script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
     
 
 </head>
@@ -63,41 +65,36 @@
     <h1 class="title">我愿将制作本主题的荣耀献给台下的蛋贼</h1>
     <div class="entry"><p>今天的蛋贼穿了一件粉红色的小T恤配一条蓝色背带裤，瞬间激发了我的创作欲望，没错，我愿意为我的新宠<code>鼠须管</code>做一款蛋贼主题配色。</p>
 
-<p>那么首先参考下<code>佛振</code>的<a href="http://code.google.com/p/rimeime/wiki/CustomizationGuide">小狼毫配色方案教程</a>，虽然不能完全照搬到鼠须管上，但照葫芦画瓢还是可行的。</p>
+<p>那么首先参考下<code>佛振</code>的<a href="http://code.google.com/p/rimeime/wiki/CustomizationGuide">小狼毫配色方案教程</a>，虽然不能完全照搬到鼠须管上，但照葫芦画瓢还是可行的。
+<!-- more --></p>
 
-<!-- more -->
-
-
-
-
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="c1"># 适用于〔鼠须管〕0.9.6+</span>
-</span><span class='line'><span class="c1"># 位置：~/Library/Rime/squirrel.custom.yaml</span>
-</span><span class='line'><span class="err">    </span>
-</span><span class='line'><span class="l-Scalar-Plain">patch</span><span class="p-Indicator">:</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">style/color_scheme</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">wonder_a</span>    <span class="c1"># 当前选取的配色方案</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">preset_color_schemes/wonder_a</span><span class="p-Indicator">:</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">蛋贼A／Wonder_A</span>    <span class="c1"># 这里写配色方案的名字</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">author</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">数塔 &lt;wenatuhs@gmail.com&gt;</span>    <span class="c1"># 作者</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">text_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xa094e0</span>    <span class="c1"># 非第一候选项的候选项文字颜色</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">back_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xb1cae5</span>    <span class="c1"># 整个输入框背景色</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">comment_text_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xa094e0</span>    <span class="c1"># 不知道干嘛的，改变颜色没什么效果</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">hilited_candidate_back_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xd3ae67</span>    <span class="c1"># 第一候选项背景色</span>
-</span><span class='line'>  <span class="l-Scalar-Plain">hilited_candidate_text_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xffffff</span>    <span class="c1"># 第一候选项文字颜色</span>
-</span></code></pre></td></tr></table></div></figure>
-
+<div class="bogus-wrapper"><notextile><figure class="code"> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+</pre></td><td class="code"><pre><code class="yaml"><span class="line"><span class="c1"># 适用于〔鼠须管〕0.9.6+</span>
+</span><span class="line"><span class="c1"># 位置：~/Library/Rime/squirrel.custom.yaml</span>
+</span><span class="line"><span class="err">	</span>
+</span><span class="line"><span class="l-Scalar-Plain">patch</span><span class="p-Indicator">:</span>
+</span><span class="line">  <span class="l-Scalar-Plain">style/color_scheme</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">wonder_a</span>    <span class="c1"># 当前选取的配色方案</span>
+</span><span class="line">  <span class="l-Scalar-Plain">preset_color_schemes/wonder_a</span><span class="p-Indicator">:</span>
+</span><span class="line">  <span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">蛋贼A／Wonder_A</span>    <span class="c1"># 这里写配色方案的名字</span>
+</span><span class="line">  <span class="l-Scalar-Plain">author</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">数塔 &lt;wenatuhs@gmail.com&gt;</span>    <span class="c1"># 作者</span>
+</span><span class="line">  <span class="l-Scalar-Plain">text_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xa094e0</span>    <span class="c1"># 非第一候选项的候选项文字颜色</span>
+</span><span class="line">  <span class="l-Scalar-Plain">back_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xb1cae5</span>    <span class="c1"># 整个输入框背景色</span>
+</span><span class="line">  <span class="l-Scalar-Plain">comment_text_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xa094e0</span>    <span class="c1"># 不知道干嘛的，改变颜色没什么效果</span>
+</span><span class="line">  <span class="l-Scalar-Plain">hilited_candidate_back_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xd3ae67</span>    <span class="c1"># 第一候选项背景色</span>
+</span><span class="line">  <span class="l-Scalar-Plain">hilited_candidate_text_color</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0xffffff</span>    <span class="c1"># 第一候选项文字颜色</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 <p>以上重点修改的是<code>输入框背景色</code>和<code>第一候选项背景色</code>，因为这两项给人的感觉最强烈（毕竟是色块嘛）。</p>
 
@@ -105,24 +102,21 @@
 
 <p>经过2个小时的不懈折腾，最后做出了以下4种配色方案：</p>
 
-<p><img src="/images/20120602/a.png" title="蛋贼主题A" alt="" />
-<img src="/images/20120602/b.png" title="蛋贼主题B" alt="" />
-<img src="/images/20120602/c.png" title="蛋贼主题C" alt="" />
-<img src="/images/20120602/d.png" title="蛋贼主题D" alt="" /></p>
+<p><img src="/images/20120602/a.png" alt="" title="蛋贼主题A" />
+<img src="/images/20120602/b.png" alt="" title="蛋贼主题B" />
+<img src="/images/20120602/c.png" alt="" title="蛋贼主题C" />
+<img src="/images/20120602/d.png" alt="" title="蛋贼主题D" /></p>
 
-<p>经过一段时间的比较，我最终决定。。。把选择权交给蛋贼本人，而蛋贼给出的结论为：</p>
-
-<blockquote><p>不咋好看呢。。。而且看不清呀。。。</p></blockquote>
+<p>经过一段时间的比较，我最终决定。。。把选择权交给蛋贼本人，而蛋贼给出的结论为：
+&gt; 不咋好看呢。。。而且看不清呀。。。</p>
 
 <p>我去，这是现有条件下我的最高水准了，蛋贼你将就点儿吧，你那奇葩的粉红深蓝组合也就是在你那萌妹子气质衬托下才楚楚动人的好吧！要想用这两种颜色搞出一个靠谱输入法配色方案似乎难了点儿。。。</p>
 
-<p>好在最后妹子还是首肯了我的搭配算是给我一晚上的时间付出一点点安慰，蛋贼说：</p>
+<p>好在最后妹子还是首肯了我的搭配算是给我一晚上的时间付出一点点安慰，蛋贼说：
+&gt; 还是第二种好，看得清~</p>
 
-<blockquote><p>还是第二种好，看得清~</p></blockquote>
-
-<p>真是实用主义的家伙。。。好吧，不管怎样，如果以后我成功忽悠了蛋贼使用鼠须管或小狼毫，那蛋贼主题B就会是蛋贼的默认配色咯！嘿嘿，如果到时候实验室的人看到蛋贼又穿了这套经典套装，估计会说：</p>
-
-<blockquote><p>哟，今儿你穿得像输入法呢~</p></blockquote>
+<p>真是实用主义的家伙。。。好吧，不管怎样，如果以后我成功忽悠了蛋贼使用鼠须管或小狼毫，那蛋贼主题B就会是蛋贼的默认配色咯！嘿嘿，如果到时候实验室的人看到蛋贼又穿了这套经典套装，估计会说：
+&gt; 哟，今儿你穿得像输入法呢~</p>
 
 <p>嘿嘿，仅以此配色和烂文献给蛋贼，祝她儿童节快乐，虽然说得晚了点儿~</p>
 </div>
