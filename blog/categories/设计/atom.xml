@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 设计 | 数塔的秘密基地]]></title>
   <link href="http://wenatuhs.github.com/blog/categories/设计/atom.xml" rel="self"/>
   <link href="http://wenatuhs.github.com/"/>
-  <updated>2012-06-03T03:24:17+08:00</updated>
+  <updated>2012-06-03T23:27:34+08:00</updated>
   <id>http://wenatuhs.github.com/</id>
   <author>
     <name><![CDATA[wenatuhs]]></name>
@@ -35,7 +35,7 @@
   style/color_scheme: wonder_a    # 当前选取的配色方案
   preset_color_schemes/wonder_a:
   name: 蛋贼A／Wonder_A    # 这里写配色方案的名字
-  author: 数塔 <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#58;&#119;&#101;&#x6e;&#x61;&#x74;&#x75;&#x68;&#115;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#119;&#x65;&#x6e;&#97;&#116;&#x75;&#x68;&#x73;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a>    # 作者
+  author: 数塔 <a href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#x3a;&#119;&#101;&#110;&#x61;&#x74;&#117;&#x68;&#x73;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#x77;&#101;&#110;&#x61;&#116;&#117;&#104;&#115;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a>    # 作者
   text_color: 0xa094e0    # 非第一候选项的候选项文字颜色
   back_color: 0xb1cae5    # 整个输入框背景色
   comment_text_color: 0xa094e0    # 不知道干嘛的，改变颜色没什么效果
