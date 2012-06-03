@@ -68,6 +68,10 @@
 
 <p>以安装markdown解析引擎<code>kramdown</code>。</p>
 
+<blockquote>
+  <p>有没有看出kramdown和markdown之间的联系？就好比恶魔城里人气角色美少男Alucard和他的吸血鬼老爸Dracula之间的联系~</p>
+</blockquote>
+
 <h3 id="mathjax">加入MathJax支持</h3>
 
 <p>在<code>source/_includes/custom/head.html</code>最后附上下面的代码：</p>
@@ -93,10 +97,19 @@
   <li><code>display</code>模式：依然用<code>$$</code>…<code>$$</code>包裹LaTeX代码，只不过每个<code>$$</code>都要单独占一行</li>
 </ul>
 
-<p>下面来一个例子。。。嗯，inline模式就用著名的<code>Euler公式</code>好了：<script type="math/tex">e^{i\pi}+1=0</script>，怎么样，很优美吧~</p>
+<p>下面来一个例子。。。嗯，inline模式就用著名的<code>Euler公式</code>好了，<code>$$e^{i\pi}+1=0$$</code>，结果是：<script type="math/tex">e^{i\pi}+1=0</script>，怎么样，很优美吧~</p>
 
-<p>至于display模式呢，也用<code>Euler公式</code>（<em>Euler非常高产，公式数不胜数</em>）算了！
-$$
+<p>至于display模式呢，也用<code>Euler公式</code>（<em>Euler非常高产，公式数不胜数</em>）！</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="latex"><span class="line"><span class="sb">$$</span><span class="nb"></span>
+</span><span class="line"><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{</span><span class="m">1</span><span class="nb">^</span><span class="m">2</span><span class="nb">} </span><span class="o">+</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{</span><span class="m">2</span><span class="nb">^</span><span class="m">2</span><span class="nb">} </span><span class="o">+</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{</span><span class="m">3</span><span class="nb">^</span><span class="m">2</span><span class="nb">} </span><span class="o">+</span><span class="nb"> </span><span class="nv">\cdots</span><span class="nb"> </span><span class="o">+</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{k^</span><span class="m">2</span><span class="nb">} </span><span class="o">+</span><span class="nb"> </span><span class="nv">\cdots</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{</span><span class="nv">\pi</span><span class="nb">^</span><span class="m">2</span><span class="nb">}{</span><span class="m">6</span><span class="nb">}</span>
+</span><span class="line"><span class="s">$$</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>$$
 \frac{1}{1^2}+\frac{1}{2^2}+\frac{1}{3^2}+\cdots+\frac{1}{k^2}+\cdots = \frac{\pi^2}{6}
 $$
 好了~让我们<code>rake deploy</code>吧！祈祷能成功哦~</p>
