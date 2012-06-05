@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Design | 数塔的秘密基地]]></title>
+  <link href="http://wenatuhs.github.com/blog/categories/design/atom.xml" rel="self"/>
+  <link href="http://wenatuhs.github.com/"/>
+  <updated>2012-06-06T03:49:07+08:00</updated>
+  <id>http://wenatuhs.github.com/</id>
+  <author>
+    <name><![CDATA[数塔]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[秀一下Thuaroid]]></title>
+    <link href="http://wenatuhs.github.com/blog/2012/06/06/xiu-yi-xia-thuaroid/"/>
+    <updated>2012-06-06T03:37:00+08:00</updated>
+    <id>http://wenatuhs.github.com/blog/2012/06/06/xiu-yi-xia-thuaroid</id>
+    <content type="html"><![CDATA[<p>今天第二篇博文了，感觉有了Octopress之后博客兼具了<a href="www.diandian.com">点点</a>和微博的功能，有神马得意的东西想晒晒或者想吐槽都会打开终端然后<code>rake new_post[...]</code>。。。</p>
+
+<p>有点困了，得睡觉了，不过睡之前还是秀一下刚刚的作品吧：山寨Polaroid图标的毕业季煽情便笺~</p>
+
+<p>首先是完美的Polaroid图标：</p>
+
+<p><img src="/images/20120606/Polaroid.jpeg" alt="Polaroid Logo" /></p>
+
+<p>然后是山寨Thuaroid图标隆重登场！</p>
+
+<p><img src="/images/20120606/Thuroid.jpeg" alt="Thuroid" /></p>
+
+<p>好了展示结束，碎觉去也~</p>
+
+<blockquote>
+  <p>睡前碎碎念：蛋贼儿蛋贼儿我耐你！</p>
+</blockquote>
+
+<p>蛋贼儿晚安~</p>
+
+<blockquote>
+  <p>记得接着要做diandian的header按钮哈！还有instagram的导航之类的。</p>
+</blockquote>
+
+]]></content>
+  </entry>
+  
+</feed>
