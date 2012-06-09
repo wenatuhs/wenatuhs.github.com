@@ -4,7 +4,7 @@
   <title><![CDATA[数塔的秘密基地]]></title>
   <link href="http://wenatuhs.github.com/atom.xml" rel="self"/>
   <link href="http://wenatuhs.github.com/"/>
-  <updated>2012-06-06T03:55:09+08:00</updated>
+  <updated>2012-06-09T16:23:23+08:00</updated>
   <id>http://wenatuhs.github.com/</id>
   <author>
     <name><![CDATA[数塔]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[终于结束了]]></title>
+    <link href="http://wenatuhs.github.com/blog/2012/06/09/zhong-yu-jie-shu-liao/"/>
+    <updated>2012-06-09T16:19:00+08:00</updated>
+    <id>http://wenatuhs.github.com/blog/2012/06/09/zhong-yu-jie-shu-liao</id>
+    <content type="html"><![CDATA[<p>我去，真是崩溃的两天，现在全都结束啦，哈哈哈！发Blog庆祝~</p>
+
+<p>不过这篇水文主要是给<code>蛋贼</code>演示用的，吼吼！</p>
+
+<p>附上一张刚刚报告的图片好了~</p>
+
+<p><img src="http://wenatuhs.github.com/images/120609/lcls.png" alt="LCLS" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[秀一下Thuaroid]]></title>
